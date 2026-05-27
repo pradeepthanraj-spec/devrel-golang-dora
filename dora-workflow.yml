@@ -35,7 +35,7 @@ jobs:
       - name: New Relic Application Deployment Marker
         uses: newrelic/deployment-marker-action@v2.2.0
         with:
-          apiKey: ${{ secrets.NEW_RELIC_API_KEY }}
+          apiKey: ${{ secrets.ls -l }}
           region: "US"
           guid: ${{ secrets.NEW_RELIC_DEPLOYMENT_ENTITY_GUID }}
           version: 1.0
